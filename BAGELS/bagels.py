@@ -39,10 +39,10 @@ while i < 10:
         print("bagels")
     
     if rslt['fermi'] == 3:
+        print()
         print("You got it!")
         exit()
 
-    print()
 
     if i == 10:
         print("Sorry, you've used all your guesses. The number was: {}{}{}".format(rand[0], rand[1], rand[2]))
